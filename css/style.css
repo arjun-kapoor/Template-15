@@ -1,0 +1,305 @@
+*{
+	margin:0; padding:0;
+	border:none; outline:none;
+	letter-spacing:normal ;		
+}
+body{
+	margin:0;
+	padding:0;
+	border:none;
+	outline:none;
+	
+	line-height: 28px;
+    color: #363636;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+img{
+	max-width:100%;	
+}
+.spacer{
+	clear:both;
+	font-size:0px;
+	line-height:0px;
+	margin:0; padding:0;
+	border:none; outline:none;	
+}
+.fleft{
+	float:left;	
+}
+.fright{
+	float:right;	
+}
+.noPadding{
+	padding:0 !important;	
+}
+.noPaddingLeft{
+	padding-left:0 !important;	
+}
+.noPaddingRight{
+	padding-right:0 !important;	
+}
+.noPaddingLftRght{
+	padding-left:0 !important;
+	padding-right:0 !important;	
+}
+.noPaddingTopBtm{
+	padding-bottom:0 !important;
+	padding-top:0 !important;	
+}
+
+.mainwrapper{
+	overflow:hidden;	
+}
+
+/*start HEADER
+*********************************/
+.home-menu.pure-menu-open{
+	background:url(../images/headerTransBg.png) 0 0 no-repeat;
+	border-bottom:#ff6600 solid 1px;
+}
+.home-menu{
+	box-shadow:none;
+		
+}
+.wrapperInner{
+	max-width:1008px;
+	margin:0 auto;	
+}
+.pure-menu-fixed{
+	margin:0 auto;
+	left:0; right:0;
+}
+
+.hdMidArea{
+	padding-top:10px;
+	
+	font-size:17px;
+	font-weight:bold;
+	color:#2f2d2a;	
+}
+.redBox, .yellowBox{
+	background:#c60000;
+	font-size:17px;
+	font-weight:700;
+	text-align:center;
+	color:#fff;	
+	
+	padding:5px 13px;
+}
+	.yellowBox{
+		background:#ff9c00;
+	}
+	
+.snIcons{
+	float:right;
+	text-align:right;
+	padding-top:6px;
+}
+	.snIcons a{
+		display:inline;
+		padding:0;
+	}
+		.snIcons a:hover{
+			/* Theoretically for IE 8 & 9 (more valid) */	
+			/* ...but not required as filter works too */
+			/* should come BEFORE filter */
+			-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+			
+			/* This works in IE 8 & 9 too */
+			/* ... but also 5, 6, 7 */
+			filter: alpha(opacity=50);
+			
+			/* Older than Firefox 0.9 */
+			-moz-opacity:0.5;
+			
+			/* Safari 1.x (pre WebKit!) */
+			-khtml-opacity: 0.5;
+			
+			/* Modern!
+			/* Firefox 0.9+, Safari 2?, Chrome any?
+			/* Opera 9+, IE 9+ */
+			opacity: 0.5;
+		}
+/*end HEADER
+*********************************/
+
+
+
+/*start BANNER
+*********************************/
+.splash-container {
+    background: url(../images/mainImgBg.jpg) 36% 0 no-repeat;
+    height: 603px;
+    left: 0;
+    overflow: hidden;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+/*end BANNER
+*********************************/
+
+
+/*start MAIN CONTAINER
+********************************/
+.content-wrapper{
+	top:603px;
+	border-top:#c60000 solid 8px;
+	
+}
+.ParaMarginBot{
+	margin-bottom:30px;	
+}
+hr{
+	border-bottom:#e0e0e0 solid 1px;
+	width:100%;
+	display:block;	
+}
+
+.containerpan{
+	max-width:840px;
+	margin:-50% auto 49px;
+	}
+	
+.videoPan{
+	padding:16px;
+	margin:36px 0 0;
+}
+
+.pure-menu.pure-menu-open.pure-menu-fixed{
+	z-index:999px !important;	
+}
+
+.cont{
+	margin:0 auto;
+	text-align:center;
+	font-size:17px;
+	font-weight:300;
+}
+
+h1{
+	font-size:40px;
+	font-weight:800;
+	color:#000;
+	text-align:center;	
+	line-height:30px;
+	margin-bottom:8px;
+	margin-top:36px;
+}
+h2{
+	font-size:28px;
+	font-weight:600;
+	color:#fff;
+	line-height:30px;
+	margin-bottom:0;	
+}
+.titleTxt{
+	font-size:17px;
+	font-weight:600;
+	color:#000;
+	margin:0;	
+}
+
+.pure-button.button-error{
+	border-radius:50px;
+	background:#c60000;
+	
+	font-size:28px;
+	font-weight:300;
+	color:#fff;
+	text-align:center;
+	
+	padding:16px 60px;
+}
+
+.testimonialDiv{
+	background:#414141;
+	padding:10px 10px 10px 34px;	
+}
+	.testimonialDiv p{
+		font-size:13px;
+		font-weight:400;
+		color:#fff;
+		line-height:20px;
+	}
+		.whiteDiv{
+			background:#fff;
+			padding:25px 21px;
+		}
+			.thumbImgDiv{
+				float:left;
+				margin-right:21px;	
+			}
+				.quoteDiv{
+					overflow:hidden;
+					padding-right:65px;	
+				}
+					.quoteDiv p{
+						padding-left:47px;
+						
+						font-size:13px;
+						font-weight:400;
+						color:#393939;
+						line-height:20px;	
+					}
+						.quoteDiv p strong{
+							font-size:13px;
+							font-weight:700;
+							color:#3c3c3c;	
+						}
+/*end MAIN CONTAINER
+********************************/
+
+
+/*start FOOTER
+*********************/
+.footer{
+	background:none;
+	padding:25px 0;
+	overflow:hidden;
+	
+	font-family: 'Open Sans', sans-serif;
+	font-size:13px;
+	font-weight:400;
+	color:#292828;	
+}
+	.footer p{
+		text-align:left;
+		margin:0;
+			
+	}
+
+ul.ftMenu{
+	list-style-type:none;
+	float:left;
+	padding:0;
+	margin:0;
+}
+	ul.ftMenu li{
+		list-style-type:none;
+		display:inline-block;
+		border-right:#292828 solid 1px;
+		line-height:18px;
+	}
+		ul.ftMenu li:first-child a{
+			padding-left:0;	
+		}
+		ul.ftMenu li:last-child{
+			border-right:none;	
+		}
+		ul.ftMenu li a{
+			font-family: 'Open Sans', sans-serif;
+			font-size:13px;
+			font-weight:400;
+			color:#292828;
+			text-decoration:none;
+			padding:0 5px;
+		}
+			ul.ftMenu li a:hover{
+				color:#000;	
+			}
+/*end FOOTER
+*********************/
+
